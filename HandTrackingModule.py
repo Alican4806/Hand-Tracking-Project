@@ -64,7 +64,7 @@ class handDetector(): # We created the class to be functional
                     cv.circle(img,(cx,cy),5,(0,255,0),cv.FILLED) # We adjust size of the circle the color.           
                                                                 
         return lmList                                        
-                            #            
+                                       
                             # # We tried to show fps
     
   
@@ -99,6 +99,6 @@ def main():
 
           
     
-if __name__=="__main__": # It runs this part in python
+if __name__=="__main__": # It firstly runs this part in python
     main()
      
