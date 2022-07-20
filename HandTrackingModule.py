@@ -3,8 +3,6 @@ We will make module which called HandTrackingModule.py to able to use next proje
 
 '''
 
-
-
 import cv2 as cv
 import mediapipe as mp
 import time
@@ -68,8 +66,6 @@ class handDetector(): # We created the class to be functional
                             # # We tried to show fps
     
   
-    
-
 def main():
     pTime = 0 # It is previous time and it was 0 at started
     cTime = 0 # It is current time and it was 0 at started
